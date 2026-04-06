@@ -7,8 +7,8 @@ class Solution(object):
        sr=0
        er=n*m-1
        while sr <=  er:
-         mid=(sr+er)/2
-         r=mid//n
+         mid=(sr+er)//2
+         r=mid//n     
          c=mid%n
          if matrix[r][c]==target:
             return True
