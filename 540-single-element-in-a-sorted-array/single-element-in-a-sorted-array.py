@@ -8,5 +8,6 @@ class Solution(object):
           else:
             return nums[i]
        return nums[-1]
+     
        
         
